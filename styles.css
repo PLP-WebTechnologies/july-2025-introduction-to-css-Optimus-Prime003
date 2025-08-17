@@ -1,0 +1,90 @@
+/* ----- Global Reset & Base Styles ----- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: lightskyblue;
+    color: black;
+    padding: 8px;
+}
+
+/* ----- Header & Navigation ----- */
+header {
+    background-color: #003366;
+    color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #003366;
+}
+
+#Header_Props {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.nav-list a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-list a:hover {
+    background-color: #0059b3;
+}
+
+/* ----- Main Content Sections ----- */
+main {
+    margin-top: 20px;
+}
+
+/* Intro Section */
+.intro {
+    background-color: #e6f0ff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #cce0ff;
+    border-radius: 8px;
+}
+
+/* Cards Section */
+.cards {
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: #e6f0ff;
+    border-radius: 8px;
+    padding: 15px;
+    flex: 1;
+    text-align: left;
+    margin: 5px;
+}
+
+/* ----- Footer ----- */
+footer {
+    margin-top: 40px;
+    padding: 15px;
+    background-color: #004080;
+    color: whitesmoke;
+    text-align: center;
+    border-top: 4px solid #003366;
+}
